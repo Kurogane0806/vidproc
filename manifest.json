@@ -1,0 +1,66 @@
+{
+  "id": "heretics-guide-to-devotion-and-divinity",
+  "title": "Heretic's Guide to Devotion & Divinity",
+  "description": "From zealous cults and relic hunts to divine player options and celestial horrors, Heretic's Guide to Devotion & Divinity has everything you need to make the divine matter.",
+  "version": "1.0.3",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "Eventyr Games",
+      "url": "https://eventyrgames.com",
+      "discord": "https://discord.gg/jeb3hpRbmg"
+    }
+  ],
+  "packs": [
+    {
+      "name": "actors",
+      "label": "HGDD Actors",
+      "path": "/packs/actors.db",
+      "type": "Actor",
+      "system": "dnd5e"
+    },
+    {
+      "name": "items",
+      "label": "HGDD Items",
+      "path": "/packs/items.db",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "journals",
+      "label": "HGDD Journals",
+      "path": "/packs/journals.db",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "maps",
+      "label": "HGDD Scenes",
+      "path": "/packs/maps.db",
+      "type": "Scene"
+    }
+  ],
+  "styles": [
+    "styles/style.css"
+  ],
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "relationships": {
+    "recommends": [
+      {
+        "id": "token-attacher",
+        "type": "module"
+      },
+      {
+        "id": "scene-packer",
+        "type": "module",
+        "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json"
+      }
+    ]
+  },
+  "url": "https://eventyrgames.store/products/heretics-guide-to-devotion-divinity-pre-order",
+}
+Ask AI to edit or generate...
